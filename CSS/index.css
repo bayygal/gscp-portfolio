@@ -1,0 +1,17 @@
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-family: -apple-system-subheadline, BlinkMacSystemFont, sans-serif
+}
+
+p {
+    font-size: 14px;
+    font-weight: 50;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-wrap: balance;
+    width: 30%;
+    text-align: left;
+}
