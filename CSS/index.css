@@ -1,10 +1,21 @@
 h1 {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 100;
     text-align: left;
     padding-top: 10px;
     margin-bottom: 10px;
-    font-family: -apple-system-subheadline, BlinkMacSystemFont, sans-serif
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 100;
+    text-align: left;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif
+
 }
 
 p {
@@ -12,6 +23,43 @@ p {
     font-weight: 50;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     text-wrap: balance;
-    width: 30%;
+    width: 100%;
     text-align: left;
+}
+
+.sidebar {
+    height: 100%;
+    width: flex;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #e1e1e1;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebar p {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidebar m1 {
+    padding: 50px 30px 20px 30px;
+    text-decoration: none;
+    font-size: 48px;
+    font-weight: 50;
+    font-family: Arial, Helvectica, sans-serif
+}
+
+.nav-container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem; 
+    text-shadow: 4px 4px 8px rgba(28, 3, 3, 0.5);
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    padding: 10px 10px; 
 }
