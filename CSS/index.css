@@ -29,30 +29,36 @@ p {
 
 .sidebar {
     height: 100%;
-    width: flex;
+    width: 30%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #e1e1e1;
+    background-color: #ffffff;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
-.sidebar p {
-    padding: 6px 8px 6px 16px;
+.sidebar li {
+    padding: 20px 50px 20px 50px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 24px;
+    color: #000000;
     display: block;
+    font-family: 'Lato';
+}
+
+.sidebar li:hover {
+    color:#758efd;
 }
 
 .sidebar m1 {
-    padding: 50px 30px 20px 30px;
+    padding-left: 50px;
+    padding-bottom: 150px;
     text-decoration: none;
     font-size: 48px;
     font-weight: 50;
-    font-family: Arial, Helvectica, sans-serif
+    font-family: 'Lato'
 }
 
 .nav-container{
@@ -62,4 +68,9 @@ p {
     line-height: 1.6;
     letter-spacing: 0.5px;
     padding: 10px 10px; 
+}
+
+.heading {
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
