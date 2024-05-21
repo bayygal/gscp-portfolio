@@ -6,7 +6,7 @@ h1 {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 50;
     font-family: 'Lato';
     text-wrap: balance;
@@ -63,8 +63,12 @@ p2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.sidebar-text {
+.sidebar-items {
     padding-top: 20px;
+}
+
+.sidebar-items.active {
+    color: #98FB98;
 }
 
 .nav-container{
