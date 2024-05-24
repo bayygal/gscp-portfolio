@@ -51,7 +51,6 @@ p2 {
     left: 0;
     background-color: #ffffff;
     overflow-x: hidden;
-    padding-top: 30px;
     text-decoration: none;
     padding-top: 50px;
 }
@@ -82,29 +81,6 @@ p2 {
 .sidebar-items {
     padding-top: 20px;
 }
-
-/* On screens that are less than chromebook px wide, make the sidebar into a topbar */
-@media screen and (max-width: 1536px) {
-    .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .sidebar a {float: left;}
-    div.content {margin-left: 0;}
-
-    .page-content {
-        margin-left: -20%;
-    }
-  }
-  
-  /* On screens that are less than 1200px, display the bar vertically, instead of horizontally */
-  @media screen and (max-width: 1200px) {
-    .sidebar a {
-      text-align: center;
-      float: none;
-    }
-  }
 
 .heading {
     padding-top: 25px;
@@ -177,4 +153,54 @@ p2 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+
+  /* On screens that are less than chromebook px wide, make the sidebar into a topbar */
+@media screen and (max-width: 1536px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      padding-top: -50px;
+      margin-top: -2.5%;
+    }
+    .sidebar a {
+        float: left;
+        margin-top: -0.5%;
+        font-size: 18px;
+    }
+
+    .sidebar .sidebar-items{
+        padding-top: -10px;
+        padding-left: -60px;
+        padding-right: 10px;
+        margin-left: 40%;
+        margin-top: -1.5%;
+    }
+
+    .page-content {
+        margin-left: 0%;
+        margin-top: 2%
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 72px;
+    }
+
+    h2 {
+        font-size: 48px;
+        margin-top: -2%;
+    }
+  }
+  
+  /* On screens that are less than 1200px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 1200px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
   }
