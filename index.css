@@ -156,8 +156,8 @@ p2 {
     width: 50%;
   }
 
-  /* On screens that are less than chromebook px wide, make the sidebar into a topbar */
-@media screen and (max-width: 1536px) {
+  /* On screens that are less than 1080p, make the sidebar into a topbar */
+@media screen and (max-width: 1919px) {
     .sidebar {
       width: 100%;
       height: auto;
@@ -198,54 +198,11 @@ p2 {
         margin-top: -2%;
     }
   }
-
-/* On screens that are less than 1280px wide, make the sidebar into a topbar */
-  @media screen and (max-width: 1280px) {
-    .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-      padding-top: -50px;
-      margin-top: -2.5%;
-    }
-    
-    .sidebar a {
-        float: left;
-        margin-top: -0.5%;
-        font-size: 18px;
-    }
-
-    .sidebar .sidebar-items{
-        padding-top: -10px;
-        padding-left: -60px;
-        padding-right: 10px;
-        margin-left: 30%;
-        margin-top: -1.5%;
-    }
-
-    .page-content {
-        margin-left: 0%;
-        margin-top: 2%
-    }
-
-    p {
-        font-size: 18px;
-    }
-
-    h1 {
-        font-size: 72px;
-    }
-
-    h2 {
-        font-size: 48px;
-        margin-top: -2%;
-    }
-  }
   
   /* On screens that are less than 1200px, display the bar vertically, instead of horizontally */
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1000px) {
     .sidebar a {
-      text-align: center;
+      align-items: center;
       float: none;
     }
   }
