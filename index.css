@@ -205,4 +205,9 @@ p2 {
       align-items: center;
       float: none;
     }
+
+    .image-responsive {
+        width: 280%;
+        margin-top: 12rem;
+    }
   }
